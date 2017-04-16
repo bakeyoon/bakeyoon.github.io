@@ -1,0 +1,22 @@
+* 브라켓의 FTP 연동하여 실시간 업로드 하기
+
+1. FTP
+	파일 전송
+	21번 포트 사용
+
+
+2. SSH
+	리눅스용
+	22번 포트 사용
+
+3. MySQL
+	DB
+	3306번 포트 사용
+
+
+index.html 수정 -> (file zilla를 통한 FTP 생략) -> 웹서버에 전송
+
+브라켓 오픈 -> 오른쪽 블럭아이콘 -> eqftp 검색 -> 설치 -> eqFTP아이콘 클릭 -> 설정버튼 -> 
+새 연결 설정중 클릭 -> 연결이름 : portfolio 서버 : mura.dothome.co.kr -> 자동화 :클래식 선택 ->
+eqFTP 아이콘을 클릭해서 portfolio 클릭하고 html 폴더 안에 파일을 넣어야 함 ->
+크롬 주소창에 mura.dothome.co.kr 을 입력하면 브라켓의 내용이 바로 보임
